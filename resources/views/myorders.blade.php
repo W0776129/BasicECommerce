@@ -28,4 +28,4 @@
 
         </div>
     </div>
-@endsection 
+@endsection
