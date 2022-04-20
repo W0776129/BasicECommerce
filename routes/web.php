@@ -13,11 +13,11 @@ use App\Http\Controllers\ProductController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+/*
 Route::get('/', function () {
     return view('welcome');
 });
-
+*/
 
 
 Route::get('/login', function () {
@@ -26,4 +26,5 @@ Route::get('/login', function () {
 
 Route::post("/login",[UserController::class,'login']);
 
-Route::get('/product', [ProductController::class,'index']);
+Route::get('/', [ProductController::class,'index']);
+Route::get('/detail/{id}', [ProductController::class,'detail']);
