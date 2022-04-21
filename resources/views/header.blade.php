@@ -44,6 +44,7 @@ if(Session::has('user'))
                     </li>
                 @else
                     <li><a href="/basicecom/login">Login</a></li>
+                    <li><a href="/basicecom/register">Register</a></li>
                 @endif
             </ul>
         </div><!-- /.navbar-collapse -->
