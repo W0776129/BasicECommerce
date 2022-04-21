@@ -14,32 +14,32 @@ class ProductSeeder extends Seeder
         //
         DB::table('products')->insert([
             [
-                'name'=>'Oppo mobile',
-                "price"=>"300",
-                "description"=>"A smartphone with 8gb ram and much more feature",
-                "category"=>"mobile",
-                "gallery"=>"https://assetscdn1.paytm.com/images/catalog/product/M/MO/MOBOPPO-A52-6-GFUTU6297453D3D253C/1592019058170_0..png"
+                'name'=>'One plus 10 pro',
+                "price"=>"1200",
+                "description"=>"Competitive pricing and solid all-round performance make the 10 Pro a compelling option. ",
+                "category"=>"Android",
+                "gallery"=>"https://www.cnet.com/a/img/2022/03/30/155456bb-8e04-455f-bfd8-bb414928ffeb/oneplus-10-pro-cnet-review-17.jpg"
             ],
             [
-                'name'=>'Panasonic Tv',
-                "price"=>"400",
-                "description"=>"A smart tv with much more feature",
-                "category"=>"tv",
-                "gallery"=>"https://i.gadgets360cdn.com/products/televisions/large/1548154685_832_panasonic_32-inch-lcd-full-hd-tv-th-l32u20.jpg"
+                'name'=>'iphone 13',
+                "price"=>"1200",
+                "description"=>"As part of our efforts to reach our environmental goals, ",
+                "category"=>"iphone",
+                "gallery"=>"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-product-red-select-2021?wid=940&hei=1112&fmt=png-alpha&.v=1645572315758"
             ],
             [
-                'name'=>'Soni Tv',
-                "price"=>"500",
-                "description"=>"A tv with much more feature",
-                "category"=>"tv",
-                "gallery"=>"https://4.imimg.com/data4/PM/KH/MY-34794816/lcd-500x500.png"
+                'name'=>'Samsung s22 ultra',
+                "price"=>"2000",
+                "description"=>"Our best camera, performance, and connectivity ever on a Galaxy smartphone,  ",
+                "category"=>"Android",
+                "gallery"=>"https://img.global.news.samsung.com/ca/wp-content/uploads/2022/02/Galaxy_S22_Ultra_PR_main1F.jpg"
             ],
             [
-                'name'=>'LG fridge',
-                "price"=>"200",
-                "description"=>"A fridge with much more feature",
-                "category"=>"fridge",
-                "gallery"=>"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFx-2-wTOcfr5at01ojZWduXEm5cZ-sRYPJA&usqp=CAU"
+                'name'=>'iphone 13 pro',
+                "price"=>"1450",
+                "description"=>"iPhone 13 Pro and iPhone 13 Pro Max do not include a power adapter or EarPods. ",
+                "category"=>"iphone",
+                "gallery"=>"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-family-hero?wid=940&hei=1112&fmt=png-alpha&.v=1644969385433"
             ]
         ]);
 
